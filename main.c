@@ -17,6 +17,9 @@ int main(void)
     float res_dot = vector3_dot(a, b);
     printf("Result of dot: %.2f\n", res_dot);
 
+    Vector3 res_cross = vector3_cross(a, b);
+    printf("Result of cross: (%.2f, %.2f, %.2f)\n",
+        res_cross.x, res_cross.y, res_cross.z);
 
     return 0;
 }
