@@ -13,7 +13,10 @@ int main(void)
     Vector3 res_sub = vector3_sub(a, b);
     printf("Result of sub: (%.2f, %.2f, %.2f)\n",
         res_sub.x, res_sub.y, res_sub.z);
-    
+
+    float res_dot = vector3_dot(a, b);
+    printf("Result of dot: %.2f\n", res_dot);
+
 
     return 0;
 }
